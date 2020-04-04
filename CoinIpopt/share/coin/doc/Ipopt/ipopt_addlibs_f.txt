@@ -1,0 +1,1 @@
+         -L/home/tliu/software/CoinIpopt/lib -lipopt -llapack -ldl -lcoinmumps -lblas -lcoinmetis            -lstdc++ -lm

@@ -1,0 +1,10 @@
+prefix=/home/tliu/software/CoinIpopt
+libdir=/home/tliu/software/CoinIpopt/Ipopt/src/Interfaces
+
+Name: IPOPT
+Description: Interior Point Optimizer
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12.1
+Libs: ${libdir}/libipopt.la -llapack -lblas -lm  -ldl
+Cflags: -I/home/tliu/software/CoinIpopt/Ipopt/src/Interfaces -I/home/tliu/software/CoinIpopt/Ipopt/src/Common -I/home/tliu/software/CoinIpopt/Ipopt/src/LinAlg -I/home/tliu/software/CoinIpopt/Ipopt/src/Algorithm -I/home/tliu/software/CoinIpopt/Ipopt/src/contrib/CGPenalty -I/home/tliu/software/CoinIpopt/Ipopt/src/contrib/LinearSolverLoader -I/home/tliu/software/CoinIpopt/Ipopt/src/Common
+Requires: coinmumps 
